@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webapp de Ropa y Accesorios de Gym</title>
+    <script defer src="./main.js"></script>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <h1>Tienda de Ropa y Accesorios de Gym</h1>
+        <div>Productos en el carrito: <span id="contador-carrito">0</span></div>
+    </header>
+
+    <main>
+        <section id="productos">
+            <h2>Productos Disponibles</h2>
+            <div id="lista-productos" class="productos-container"></div>
+        </section>
+        <section id="carrito">
+            <h2>Carrito de Compras</h2>
+            <ul id="lista-carrito"></ul>
+            <p id="total-gastado"></p>
+            <button id="comprar">Comprar</button>
+        </section>
+    </main>
+    
+    <!-- Imágenes de productos (ocultas) -->
+    <div id="imagenes-productos" style="display:none;">
+        <img id="img-camiseta" src="./img/camiseta.webp" alt="Camiseta">
+        <img id="img-zapatillas" src="./img/zapatillas.webp" alt="Zapatillas">
+        <img id="img-medias" src="./img/medias.webp" alt="Medias">
+        <img id="img-camperas" src="./img/campera.webp" alt="Camperas">
+    </div>
+</body>
+</html>
+
+
+
+
+
+
